@@ -1,0 +1,78 @@
+﻿<Properties StartupConfiguration="{C8D091CB-B8A8-44A2-98A7-38E3A585EB93}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AuthServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ResourceServer/Services/ITodoService.cs">
+    <Files>
+      <File FileName="AuthenticationServer/Program.cs" />
+      <File FileName="AuthenticationServer/appsettings.json" />
+      <File FileName="AuthenticationServer/appsettings.Development.json" />
+      <File FileName="AuthenticationServer/Context/DataContext.cs" />
+      <File FileName="AuthenticationServer/Properties/launchSettings.json" />
+      <File FileName="AuthenticationServer/Controllers/ApiControllers/RegisterController.cs" />
+      <File FileName="AuthenticationServer/Controllers/ApiControllers/LoginController.cs" />
+      <File FileName="AuthenticationServer/Controllers/ApiControllers/JwtTokenController.cs" />
+      <File FileName="AuthenticationServer/Services/IAuthenticationService.cs" />
+      <File FileName="AuthenticationServer/Services/AuthenticationService.cs" Line="79" Column="1" />
+      <File FileName="AuthenticationServer/Dto/LoginDto.cs" />
+      <File FileName="AuthenticationServer/Dto/AuthResponseDto.cs" />
+      <File FileName="AuthenticationServer/Services/EncryptionService.cs" />
+      <File FileName="AuthenticationServer/Services/JwtTokenService/JwtGenerator.cs" />
+      <File FileName="AuthenticationServer/Models/MailData.cs" />
+      <File FileName="AuthenticationServer/Services/Email/IEmailService.cs" />
+      <File FileName="AuthenticationServer/Services/Email/EmailService.cs" />
+      <File FileName="AuthenticationServer/Services/Email/EmailTemplate.cs" />
+      <File FileName="AuthenticationServer/Services/Email/AccountVerificationTemplate.html" />
+      <File FileName="AuthenticationServer/Services/Email/MailSettings.cs" />
+      <File FileName="AuthenticationServer/Entity/AccountVerification.cs" />
+      <File FileName="AuthenticationServer/Models/JwtTokenModal.cs" />
+      <File FileName="AuthenticationServer/Services/JwtTokenService/JwtDecoder.cs" Line="56" Column="6" />
+      <File FileName="AuthenticationServer/Repository/AccountVerificationRepository.cs" Line="37" Column="1" />
+      <File FileName="AuthenticationServer/Repository/UserRepository.cs" />
+      <File FileName="AuthenticationServer/Repository/IRepository.cs" />
+      <File FileName="AuthenticationServer/Controllers/ViewControllers/AuthenticationController.cs" />
+      <File FileName="AuthenticationServer/Controllers/ViewControllers/HomeController.cs" />
+      <File FileName="AuthenticationServer/Migrations/DataContextModelSnapshot.cs" />
+      <File FileName="ResourceServer/Program.cs" Line="48" Column="31" />
+      <File FileName="ResourceServer/Views/Home/Index.cshtml" />
+      <File FileName="ResourceServer/Models/ErrorViewModel.cs" />
+      <File FileName="ResourceServer/Entity/Todo.cs" />
+      <File FileName="AuthenticationServer/Controllers/ApiControllers/AccountVerificationController.cs" />
+      <File FileName="ResourceServer/Services/JwtService.cs" Line="30" Column="4" />
+      <File FileName="ResourceServer/Controllers/ResourceController.cs" Line="31" Column="42" />
+      <File FileName="ResourceServer/Services/AuthorizationService.cs" Line="1" Column="1" />
+      <File FileName="ResourceServer/Models/JwtTokenModal.cs" />
+      <File FileName="AuthenticationServer/Services/JwtTokenService/JwtService.cs" />
+      <File FileName="AuthenticationServer/Repository/AccessTokenRepository.cs" />
+      <File FileName="AuthenticationServer/Entity/AccessToken.cs" />
+      <File FileName="ResourceServer/Services/ITodoService.cs" Line="9" Column="23" />
+      <File FileName="ResourceServer/Services/TodoService.cs" Line="1" Column="1" />
+      <File FileName="ResourceServer/Services/JwtDecoder.cs" Line="1" Column="1" />
+      <File FileName="ResourceServer/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Backend">
+            <Node name="AuthServer">
+              <Node name="Repository" expanded="True" />
+              <Node name="Services">
+                <Node name="JwtTokenService" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ResourceServer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ITodoService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
